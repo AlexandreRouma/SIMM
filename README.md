@@ -40,3 +40,13 @@ The schematic:
 
 ![SIMM_PINOUT](https://i.imgur.com/brw7Bud.png)
 ![ARDUINO_PORTS](https://i.imgur.com/UYL8Lah.png)
+
+Functions:
+```C++
+void begin();                                                                   // Initialize RAM
+void stop();                                                                    // Stop RAM
+byte read(uint16_t row, uint16_t column);                                       // Read a byte from RAM
+void write(uint16_t row, uint16_t column, byte data);                           // Write a byte to RAM
+void readBlock(uint16_t row, uint16_t column, uint16_t length, byte array[]);   // Read a block of bytes from RAM
+void writeBlock(uint16_t row, uint16_t column, byte array[]);                   // Write a block of bytes to RAM
+```
