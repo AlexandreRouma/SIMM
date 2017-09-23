@@ -1,5 +1,6 @@
 # SIMM
-SIMM RAM is a library for the Arduino MEGA 2560 that can ge used to control
+![IMAGE](https://i.imgur.com/0ShY3pC.jpg)
+SIMM RAM is a library for the Arduino MEGA 2560 that can be used to control
 30 pin SIMM RAM modules.
 
 # First, Why ?!
